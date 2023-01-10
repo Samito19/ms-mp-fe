@@ -8,8 +8,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "main-red": "#CC1808"
-      }
+        "main-red": "#d31e39",
+      },
+      boxShadow: {
+        n4: "0px 1px 4px rgba(0, 0, 0, 0.16)",
+        n5: "0px 3px 8px rgba(0, 0, 0, 0.24)",
+      },
     },
   },
   plugins: [],
