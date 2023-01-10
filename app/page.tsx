@@ -1,4 +1,4 @@
-import { RegistrationForm } from "../components/landing-page/RegistrationForm";
+import { RegistrationForm } from "./login/RegistrationForm";
 
 export default function RegistrationPage() {
   return (
