@@ -1,4 +1,5 @@
-import { RegistrationForm } from "./login/RegistrationForm";
+import Link from "next/link";
+import { RegistrationForm } from "./RegistrationForm";
 
 export default function RegistrationPage() {
   return (
@@ -18,9 +19,11 @@ export default function RegistrationPage() {
         <span className="ml-auto mr-4 font-medium text-[1.1em] cursor-pointer select-none hover:text-main-red transition-all">
           Explore
         </span>
-        <button className="h-[2.2rem] w-[6rem] bg-main-red mr-8 text-white rounded-[5px] font-medium">
-          Log In
-        </button>
+        <Link href="/login">
+          <button className="h-[2.2rem] w-[6rem] bg-main-red mr-8 text-white rounded-[5px] font-medium">
+            Log In
+          </button>
+        </Link>
       </nav>
       <section className="h-[40rem] w-full flex">
         <div className="w-[50rem] overflow-x-visible float-left">
@@ -67,7 +70,7 @@ export default function RegistrationPage() {
             src="/landing-page/red-registration-blob.svg"
             className="h-[48rem] ml-[4rem] mt-[2rem]"
           />
-          <RegistrationForm/>
+          <RegistrationForm />
         </div>
       </section>
     </div>
