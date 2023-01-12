@@ -14,6 +14,9 @@ module.exports = {
         n4: "0px 1px 4px rgba(0, 0, 0, 0.16)",
         n5: "0px 3px 8px rgba(0, 0, 0, 0.24)",
       },
+      fontFamily: {
+        'manrope': 'Manrope, sans-serif'
+      },
     },
   },
   plugins: [],
